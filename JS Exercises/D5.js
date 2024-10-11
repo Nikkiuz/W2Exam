@@ -164,6 +164,8 @@ for (i=0; i<charactersArray.length;i++){
                 console.log(undefined)
 }
 }
-newCharactersArray.sort();
+const inOrder = newCharactersArray.pop()
+newCharactersArray.unshift(inOrder)
+
 console.log(newCharactersArray)
 
