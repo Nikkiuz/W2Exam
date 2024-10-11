@@ -7,7 +7,9 @@ body {
 #logo{
     text-align: left;
     background-color: #222F3F;
-    width: 100%; 
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
     
 }
 
@@ -23,6 +25,9 @@ nav{
     background-color: #364759;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
 
     
     
@@ -47,10 +52,11 @@ nav{
     background-color: #F56600;
     color: white;
     text-decoration: none;
-    width: 96%;
+    width: 100%;
     margin-left: 2%;
     margin-right: 2%;
     font-size: 30px;
+    font-weight: 600;
 }
 
 .banner{
@@ -61,7 +67,7 @@ nav{
     background-image: url(../images/bg-image.png);
     background-position: center;
     background-repeat: repeat;
-    width: 95%;
+    width: 100%;
     margin-left: 2%;
     margin-right: 2%;
     background-size: 170em;
