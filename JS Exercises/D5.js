@@ -147,12 +147,16 @@ for (i=0; i<charactersArray.length;i++){
   switch (charactersArray[i]){
   case 'd': 
         newCharactersArray.push(4);
+        break
         case 'g':
           newCharactersArray.push(7);
+          break
           case 'n':
             newCharactersArray.push(14);
+            break
             case 'u':
               newCharactersArray.push(21)
+              break
                 case 'z':
                   newCharactersArray.push(26)
               break;
