@@ -10,33 +10,33 @@ REGOLE
 /* ESERCIZIO 1
     Dato il seguente array, scrivi del codice per stampare ogni elemento dell'array in console.
 */
-// const pets = ['dog', 'cat', 'hamster', 'redfish']
+const pets = ['dog', 'cat', 'hamster', 'redfish']
 
 
-// console.log(pets)
+console.log(pets)
 
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
 
-// pets.sort()
-// console.log(pets)
+pets.sort()
+console.log(pets)
 
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
 
-// pets.reverse()
-// console.log(pets)
+pets.reverse()
+console.log(pets)
 
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
-// const firstElement = pets.shift()
-// pets.push(firstElement)
+const firstElement = pets.shift()
+pets.push(firstElement)
 
-// console.log(pets)
+console.log(pets)
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
@@ -66,7 +66,7 @@ for (let i = 0; i < cars.length; i++) {
 cars[i].licensePlate = 'undefined'
 }
 
-// console.log(cars)
+console.log(cars)
 
 
 /* ESERCIZIO 6
@@ -75,7 +75,7 @@ cars[i].licensePlate = 'undefined'
 */
 
 cars.push({brand: 'Audi', model: 'Q7', color:'white', trims:['GT', 'classy']})
-// console.log(cars)
+console.log(cars)
 
 
 for (let i = 0; i < cars.length; i++){
@@ -88,7 +88,6 @@ console.log(cars)
  
     
 
-// console.log(cars)
 
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
